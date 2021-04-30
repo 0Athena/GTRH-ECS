@@ -1,0 +1,15 @@
+{
+  "name": "gtrh",
+  "version": "1.0.0",
+  "description": "health care system for elder people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fall",
+    "detection"
+  ],
+  "author": "GTRH",
+  "license": "ISC"
+}

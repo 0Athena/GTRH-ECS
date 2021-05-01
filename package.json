@@ -1,18 +1,37 @@
 {
-  "name": "gtrh",
-  "version": "1.0.0",
-  "description": "health care system for elder people",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "fall",
-    "detection"
-  ],
-  "author": "GTRH",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "gtrh",
+	"version": "1.0.0",
+	"description": "health care system for elder people",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"fall",
+		"detection"
+	],
+	"author": "GTRH",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"express-validator": "^6.9.0",
+		"args-parser": "^1.1.0",
+		"chalk": "^4.1.0",
+		"cls-hooked": "^4.2.2",
+		"mandrill-api": "^1.0.45",
+		"mkdirp": "^1.0.4",
+		"multer": "^1.4.2",
+		"mysql2": "^2.2.5",
+		"lodash": "^4.17.20",
+		"config": "^3.3.3",
+		"nodemailer": "^6.4.17",
+		"redis": "^3.0.2",
+		"sharp": "^0.27.0",
+		"winston": "^3.3.3",
+		"uuid": "^8.3.2",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"usol-buffertools": "^1.2.0",
+		"sequelize": "^6.3.5"
+	}
 }

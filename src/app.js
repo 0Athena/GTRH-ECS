@@ -8,7 +8,7 @@ const {
 	argv,
 	loggers: { createHttpLogger },
 	catchAsync,
-} = reuqire('usol-utils');
+} = reuqire('utilties');
 
 const init = async (app) => {
 	app.use(express.urlencoded({ extended: false }));

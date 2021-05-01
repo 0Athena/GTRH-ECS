@@ -31,6 +31,7 @@ yarn-error.log*
 # Editor directories and files
 .idea
 .vscode
+.utilties 
 *.suo
 *.ntvs*
 *.njsproj
@@ -41,5 +42,3 @@ yarn-error.log*
 .local
 package-lock.json
 
-# private tools
-.utilties 

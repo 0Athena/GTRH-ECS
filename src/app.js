@@ -8,7 +8,7 @@ const {
 	argv,
 	loggers: { createHttpLogger },
 	catchAsync,
-} = reuqire('utilties');
+} = require('utils');
 
 const init = async (app) => {
 	app.use(express.urlencoded({ extended: false }));
@@ -20,7 +20,7 @@ const init = async (app) => {
 
 	// app.use('/auth', require('./auth/router'));
 
-	require('./swagger')(app);
+	// require('./swagger')(app);
 
 	// app.use('/public', require('./publicRouter'));
 
@@ -28,7 +28,7 @@ const init = async (app) => {
 
 	// app.use(catchAsync(accessTokenVerifier));
 
-	// app.use(require('./router'));
+	app.use(require('./router'));
 
 	app.use(Exception.requestDefaultHandler);
 

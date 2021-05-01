@@ -1,0 +1,45 @@
+.DS_Store
+node_modules
+
+# package-log.json
+.package-lock.json
+
+# add build to gitignore
+/build
+
+#config files are secrets
+/config/*.json
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+public/logs.json
+public/pool.json
+public/smilio_req_data.json
+public/SimplePack.json
+public/SiterwellCO.json
+public/SiterwellSmoke.json
+dist
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Custom
+.local
+package-lock.json
+
+# private tools
+.utilties 

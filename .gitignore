@@ -8,6 +8,7 @@ node_modules
 /build
 
 #config files are secrets
+/config/*.yaml
 /config/*.json
 
 # local env files
@@ -31,7 +32,7 @@ yarn-error.log*
 # Editor directories and files
 .idea
 .vscode
-.utilties 
+utilties 
 *.suo
 *.ntvs*
 *.njsproj

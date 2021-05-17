@@ -27,6 +27,23 @@ class User extends BaseModel {
 						return this.get('firstName') + ' ' + this.get('lastName');
 					},
 				},
+				role: {
+					type: new DataTypes.ENUM('user', 'superAdmin'),
+					allowNull: false,
+					defaultValue: 'user',
+				},
+				phoneNumber: {
+					type: DataTypes.STRING,
+					allowNull: false,
+				},
+				birth: {
+					type: DataTypes.DATE,
+					allowNull: false,
+				},
+				address: {
+					type: DataTypes.STRING,
+					allowNull: false,
+				},
 			},
 			{
 				sequelize,

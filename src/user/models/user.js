@@ -43,7 +43,7 @@ class User extends BaseModel {
 				},
 				address: {
 					type: DataTypes.STRING,
-					allowNull: false,
+					allowNull: true,
 				},
 			},
 			{

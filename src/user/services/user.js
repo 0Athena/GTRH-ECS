@@ -8,6 +8,8 @@ class User {
 		this.firstName = data.firstName;
 		this.lastName = data.lastName;
 		this.email = data.email;
+		this.phoneNumber = data.phoneNumber;
+		this.birth = data.birth;
 	}
 	async createUser() {
 		if (await User.isDuplicated(this.email))

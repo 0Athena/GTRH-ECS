@@ -12,6 +12,7 @@ class User extends BaseModel {
 				email: {
 					type: DataTypes.STRING,
 					allowNull: false,
+					unique: true,
 				},
 				firstName: {
 					type: DataTypes.STRING,
@@ -47,7 +48,6 @@ class User extends BaseModel {
 			},
 			{
 				sequelize,
-				indexes: [{ fields: ['email'], unique: true }],
 			}
 		);
 	}

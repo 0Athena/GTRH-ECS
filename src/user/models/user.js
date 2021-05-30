@@ -36,6 +36,7 @@ class User extends BaseModel {
 				phoneNumber: {
 					type: DataTypes.STRING,
 					allowNull: false,
+					unique: true,
 				},
 				birth: {
 					type: DataTypes.DATE,
@@ -43,7 +44,7 @@ class User extends BaseModel {
 				},
 				address: {
 					type: DataTypes.STRING,
-					allowNull: true,
+					allowNull: false,
 				},
 			},
 			{
